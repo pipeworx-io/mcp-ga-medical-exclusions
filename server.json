@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/ga-medical-exclusions",
+  "title": "Ga Medical Exclusions",
+  "description": "Georgia Department of Community Health (DCH) Office of Inspector General (OIG) List of Excluded…",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/ga-medical-exclusions",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-ga-medical-exclusions",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/ga-medical-exclusions/mcp"
+    }
+  ]
+}

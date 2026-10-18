@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-ga-medical-exclusions",
+  "version": "0.1.0",
+  "description": "Georgia Department of Community Health (DCH) Office of Inspector General (OIG) List of Excluded Individuals and Entities screening — fleet #3279, the sixth state exclusion pack after ny-omig-exclusions, ca-medical-exclusions, tx-medical-exclusions, fl-medical-exclusions and pa-medical-exclusions.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-ga-medical-exclusions": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "ga-medical-exclusions"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-ga-medical-exclusions.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-88f796f5788d827500c31fb69fea61ab2803f5e559c1702da13be0642d4be3d7",
+    "sourceCommit": "514e3efb42b8d81082c07e01d3ae7654bbf91f52"
+  }
+}
